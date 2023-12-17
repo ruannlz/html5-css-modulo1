@@ -1,4 +1,4 @@
-# html5-css3-modulo-1
+# html5-css-modulo-1
 ## Curso de HTML5 e CSS3 - Módulo 1 do Curso em Vídeo - Prof. Gustavo Guanabara
 
  Olá, esse é meu repositório público do Módulo 1 do Curso de HTML5 e CSS3. São cinco módulos, este é apenas o primeiro. 
