@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body {
+    background-color: wheat;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+h1 {
+    color: rgb(58, 53, 53);
+    background: whitesmoke;
+}
+
+h2 {
+    color: rgb(104, 22, 22);
+    
+}
+
+p {
+    text-align: justify;
+}

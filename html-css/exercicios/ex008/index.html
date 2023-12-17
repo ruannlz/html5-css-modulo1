@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Formatação de Textos</title>
+    <style>
+        mark{
+            background-color: rgb(250, 166, 135);
+        }
+    </style>
+</head>
+<body>
+    <h1>Principais Formatações</h1>
+    <h2>Semântico vs. Não-semântico</h2>
+    <p>Duas das principais formatações, o "negrito" e o "itálico" (entre aspas mesmo), podem ser representadas no HTML5 por meio das tags &lt;b&gt; ou &lt;strong&gt; ("negrito") e &lt;i&gt; ou &lt;em&gt; (itálico). A diferença entre essas duas tags é relacionado à semântica, ou seja, significado, em detrimento da forma, que não tem significado algum.</p>
+    <h3>Negrito vs. Destaque</h3>
+    <p>A tag &lt;b&gt;&lt;/b&gt; é uma tag do tipo não-semântica. Ou seja, não possui significado algum, apenas forma. Como sabemos, forma não tem sentido, é apenas forma. Este tipo de tag, apesar de ainda válido (em 2021), está caindo em desuso pois a recomendação é utilizar a tag semântica em HTML5, que possui efeito visual semelhante: &lt;strong&gt;&lt;/strong&gt; - tag de <strong>destaque</strong>.</p>
+    <h3>Itálico vs. Ênfase</h3>
+    <&lt;em&gt;&lt;>A tag &lt;i&gt;&lt;/i&gt;, similar a tag não-semântica anterior, tem sua versão semântica visualmente semelhante, mas com significado: é a tag &lt;em&gt;&lt;/em&gt; - tag de <em>ênfase</em>.</p>
+    <h2>Texto Marcado</h2>
+    <p>É possível também a criação de <mark>textos marcados</mark>, similar ao uso de canetas marca-texto.</p>
+    <p>Nós podemos <mark> marcar o texto em qualquer local</mark>, incluindo deixando ambas as cores de marcação <mark>igual</mark>. Esse efeito é criado <mark>com style</mark>. Veja esse código dentro da tag &lt;head&gt;&lt;/head&gt;</p>
+    <h2>Textos Grandes e Pequenos</h2>
+    <p>Neste parágrafo, estamos criando <big>textos grandes</big> e também <small>textos pequenos</small>.</p>
+    <p>Para isso, usamos as tags &lt;big&gt;&lt;/big&gt; e &lt;small&gt;&lt;/small&gt;. Veja que a primeira tag &lt;big&gt; não está mais em uso, enquanto a segunda &lt;small&gt; sim.</p>
+    <h2>Texto Deletado</h2>
+    <p>Também podemos marcar <del>um texto como excluído</del> para indicar que ele deve ser lido, porém, não considerado pelo leitor. Fazemos isso usando as tags: &lt;del&gt;&lt;/del&gt;</p>
+    <h2>Texto Inserido</h2>
+    <p>Podemos marcar um <ins>texto como inserido</ins> para dar ênfase e indicar que ele foi adicionado depois na "lacuna". Isto é feito por meio das tags: &lt;ins&gt;&lt;/ins&gt;</p>
+    <p>Visualmente é <u>semelhante ao "sublinhado"</u>, que está em desuso (por ser não-semântico), e  aplicado no texto por meio da tag &lt;u&gt;&lt;/u&gt;, mas não se utiliza mais.</p>
+    <h2>Texto Sobrescrito</h2>
+    <p>Normalmente usado para fórmulas matemáticas como número exponencial, é aquele número que fica mais "alto" que o restante do texto. Exemplo: x<sup>20</sup>+3</p>
+    <p>Isso é alcançado por meio das tags: &lt;sup&gt;&lt;/sup&gt;</p>
+    <h2>Texto Subescrito</h2>
+    <p>É mais comum de ser encontrado em fórmulas químicas: aquele número que fica mais "baixo" que o restante, denotando a fórmula de uma molécula, por exemplo. Exemplo: H<sub>2</sub>O (água).</p>
+    <p>Isso é alcançado por meio das tags: &lt;sub&gt;&lt;/sub&gt;</p>
+
+</body>
+</html>
